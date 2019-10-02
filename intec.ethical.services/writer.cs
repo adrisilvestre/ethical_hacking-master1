@@ -1,11 +1,13 @@
 ﻿using System;
 using System.IO;
+using System.Web.Hosting;
 
 namespace intec.ethical.services
 {
     public class writer
     {
-        String root = (@"C://Users/Administrador/Desktop/results.txt");
+        String root = HostingEnvironment.ApplicationPhysicalPath + "/Results.txt";
+
 
         public void write(string u, string p)
         {

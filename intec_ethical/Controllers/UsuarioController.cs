@@ -10,7 +10,7 @@ namespace intec_ethical.Controllers
 {
     public class UsuarioController : ApiController
     {
-        [HttpGet]
+        [HttpPost]
         public IHttpActionResult AddUser(string username, string password)
         {
             var _writer = new writer();
