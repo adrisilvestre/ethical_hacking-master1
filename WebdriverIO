@@ -1,8 +1,0 @@
-  # Node.js + WebdriverIO example
-         require('webdriverio').remote({
-     desiredCapabilities: {
-     browserName : 'chrome'
-     },
-     host: 'selenium-ch',
-     port: 4444
- });
