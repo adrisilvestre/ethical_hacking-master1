@@ -3,7 +3,9 @@ var webdriverio = require('webdriverio');
 var options = {
     desiredCapabilities: {
         browserName: 'chrome'
-    }
+    },
+    host: 'selenium-ch',
+    port:4444
 };
 
 webdriverio
