@@ -22,6 +22,7 @@ namespace BuddyCIUnitTestProject
                 Driver.Manage().Window.Maximize();
                 Driver.FindElementById("ft_un").SendKeys("1070824");
                 Driver.FindElementById("ft_pd").SendKeys("5545682");
+                Driver.FindElementById("submitButton").Click();
                 Driver.Close();
                 Driver.Dispose();
             }
