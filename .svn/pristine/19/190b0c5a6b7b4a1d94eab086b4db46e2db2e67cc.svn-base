@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+    @inherits System.Web.Mvc.WebViewPage
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Instituto Tecnológico de Santo Domingo
+    </title>
+    <link href="~/Content/intec_style.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/users/txtSaver.js"></script>
+</head>
+<body>
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿
+@inherits System.Web.Mvc.WebViewPage
+
+<div class="uk-grid">
+    <div class="uk-width-1-1">
+        <div class="uk-text-center uk-vertical-align">
+            <div class="uk-width-9-10 uk-container-center uk-panel uk-panel-box uk-vertical-align-middle">
+                <div class="uk-width-1-1 uk-margin-bottom">
+                    <img src="../../Content/images/logo_intec.png" class="uk-margin-top uk-margin-bottom" />
+
+                </div>
+                <div class="uk-width-1-1">
+                    <p class="uk-text-large uk-text-center">
+                        Favor de colocar la información solicitada:
+                    </p>
+                    <!-- action="/" method="post"  -->
+                    <form class="uk-form uk-form-stacked uk-text-left">
+                        <div class="uk-container uk-container-center">
+                            <div>
+                                <label for="username" class="uk-form-label">
+                                    ID / Usuario
+                                </label>
+                                <div class="uk-margin-bottom uk-width-1-1">
+                                    <input name="username" id="ft_un" class="uk-width-1-1" placeholder="ID / Usuario">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="password" class="uk-form-label">
+                                    Contraseña
+                                </label>
+                                <div class="uk-margin-bottom uk-width-1-1">
+                                    <input name="password" id="ft_pd" type="password" autocomplete="off" class="uk-width-1-1" placeholder="Contraseña">
+                                </div>
+                            </div>
+                            <div class="uk-form-row uk-text-center">
+                                <div class="uk-form-controls">
+                                    <button type="button" id="submitButton" class="uk-button-danger uk-button-small">
+                                        Acceder
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
