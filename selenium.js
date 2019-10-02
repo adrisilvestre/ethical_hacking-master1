@@ -12,7 +12,7 @@ try{webdriverio
     .saveScreenshot('buddyworks.png') 
     .end();}finally {
         // Close the browser.
-        webdriverio.quit();}
+        }
 
 
 
@@ -25,5 +25,5 @@ try{webdriverio2
     .findElement(By.id('submitButton')).Click()
     .manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS)
     .end();}finally{
-        webdriverio2.quit();
+        
     }
